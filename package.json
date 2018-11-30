@@ -1,0 +1,24 @@
+{
+  "name": "school-proyect-backend",
+  "version": "1.0.0",
+  "description": "The system backend for the administration of a school library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Luis Fernando Santiago Ruiz",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.1.6",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "npm": "^6.1.0",
+    "pdfmake": "^0.1.36"
+  }
+}
